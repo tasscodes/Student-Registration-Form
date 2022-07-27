@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>Student Registration Form</title>
+<style type="text/css">
+fieldset{color:green;background-color:lightyellow}
+p{color:green}
+h1{color:yellow;background-color:darkgreen}
+sub{color:white}
+h2{color:yellow;background-color:darkgreen}
+</style>
+<script type="text/javascript">
+function validate()
+{
+	if(document.app.name.value=="")
+	{
+	alert("provide candidate's name");
+	document.app.name.focus();
+	return false;
+	}
+	if(document.app.dob.value=="")
+	{
+	alert("provide candidate's DOB");
+	document.app.dob.focus();
+	return false;
+	}
+	if(document.app.nationality.value=="")
+	{
+	alert("provide candidate's nationality");
+	document.app.nationality.focus();
+	return false;
+	}
+	if(document.app.sph.value=="")
+	{
+	alert("provide candidate's phone number");
+	document.app.sph.focus();
+	return false;
+	}
+	if(document.app.email.value=="")
+	{
+	alert("provide candidate's email");
+	document.app.email.focus();
+	return false;
+	}
+	if(document.app.sad.value=="")
+	{
+	alert("provide candidate's Aadhar Number");
+	document.app.sad.focus();
+	return false;
+	}
+	if(document.app.fn.value=="")
+	{
+	alert("provide candidate's father's name ");
+	document.app.fn.focus();
+	return false;
+	}
+	if(document.app.mm.value=="")
+	{
+	alert("provide candidate's mother's name");
+	document.app.mm.focus();
+	return false;
+	}
+	if(document.app.phn.value=="")
+	{
+	alert("provide parent's phone number");
+	document.app.phn.focus();
+	return false;
+	}
+	if(document.app.emailid.value=="")
+	{
+	alert("provide email id");
+	document.app.emailid.focus();
+	return false;
+	}
+	if(document.app.pa.value=="")
+	{
+	alert("Provide Candidate's permanent address");
+	document.app.pa.focus();
+	return false;
+	}
+	if(document.app.pin.value=="")
+	{
+	alert("provide address pin code");
+	document.app.pin.focus();
+	return false;
+	}
+	if(document.app.percentage.value=="")
+	{
+	alert("provide your XII/PUC Percentage");
+	document.app.percentage.focus();
+	return false;
+	}
+return true;
+}
+</script>
+</head>
+<body>
+<center>
+<h1><center><img src="logo.jpeg" width="200px" height="220px"></center>
+<br>BISHOP COTTON WOMEN'S CHRISTIAN COLLEGE
+<br>
+<sub>#19, 3rd Cross, C.S.I. Compound, Mission Road, Bangalore-27</sub></h1>
+<h2>REGISTRATION FOR B.A. / B.SC / B.COM / B.C.A. / B.B.A. COURSES</h2>
+</center>
+<form name="app">
+<fieldset style="background-color:lightgray">
+<br><br>
+<img src=" " align="right" width="110px" height="180px">
+<fieldset>
+<legend style="color:Black"><b>Personal Information</b></legend>
+<br>
+Name of the Student<br>
+<input type="text" name="name" size="100%">
+<br><br>
+Date of Birth<br>
+<input type="text" name="dob" size="100%">
+<br><br>
+Nationality<br>
+<input type="text" name="nationality" size="100%">
+<br><br>
+Student Phone No.<br>
+<input type="text" name="sph" size="100%">
+<br><br>
+Email Id<br>
+<input type="text" name="email" size="100%">
+<br><br>
+Religion<br>
+<input type="text" name="religion" size="100%">
+<br><br>
+Aadhar No.<br>
+<input type="text" name="sad" size="100%">
+<br><br>
+Father's Name<br>
+<input type="text" name="fn" size="100%">
+<br><br>
+Mother's Name<br>
+<input type="text" name="mm" size="100%">
+<br><br>
+Phone No.<br>
+<input type="text" name="phn" size="100%">
+<br><br>
+Email Id<br>
+<input type="text" name="emailid" size="100%">
+<br><br>
+Permanent Address<br>
+<textarea name="pa" rows="10" cols="100%">
+</textarea>
+<br><br>
+Pin Code<br>
+<input type="text" name="pin">
+</fieldset>
+<br>
+Percentage of Marks secured in XII/PUC<br>
+<input type="text" name="percentage" size="80%">
+<br><br>
+Name of Course<br>
+<select name="course">
+<option value="ba">B.A.</option>
+<option value="bsc">B.Sc</option>
+<option value="bcom">B.Com</option>
+<option>B.C.A.</option>
+<option value="bba">B.B.A</option>
+</select>
+<br><br>
+<input type="checkbox" name="tc">
+We / I have read the Online Admission Form and have filled it to the best of our/my knowledge. We / I have enclosed the required documents and will comply with the decision taken by the Admission Committee with regard to the admission process. We / I understand that an incomplete application will be subjected to rejection.
+<br><br>
+<input type="submit" value="SUBMIT" onclick="validate()">
+</fieldset>
+</form>
+<p style="color:black">
+<b>NOTE: THE DOWNLOADED APPLICATION FEE WILL BE COLLECTED AT THE TIME OF FEE PAYMENT.</b>
+<br><br><b>
+DOCUMENTS REQUIRED DURING ADMISSION :</b>
+<ol>
+<li>10th, 11th, 12th Marks Card & Transfer Certificate</li>
+<li>Migration Certificate (If applicable)</li>
+<li>Aadhaar Card - Photocopy</li>
+<li>Birth Certificate - Photocopy</li>
+<li>Caste Certificate - Photocopy</li>
+<li>Income Certificate (If income less than Rs. 5 lakh per annum)</li>
+<li>Recent Passport Size Photo (2 Nos.)</li>
+<li>Photocopy of Passport, Visa, Registration Certificate and Residential Permit (for foreign students only)</li>
+</ol>
+</p>
+</body>
+</html>
