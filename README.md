@@ -1,4 +1,4 @@
-//Student-Registration-Form
+
 <html>
 <head>
 <title>Student Registration Form</title>
